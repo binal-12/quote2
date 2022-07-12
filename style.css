@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Roboto+Condensed&family=Roboto+Mono:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background: linear-gradient(#9796F0, #FBC7D4);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: auto 1fr auto;
+    justify-items: stretch; */
+
+    user-select: none;
+}
+
+main{
+    height: 500px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackbar{
+    width: 300px;
+    height: 18px;
+    background-color: black;
+    border: 1pt solid #000000;
+    border-radius: 11px 11px 0px 0px;   
+}
+
+.date{
+    width: 300px;
+    height: 72px;
+
+    background-color: white;
+    border: 1pt solid #000000;
+    border-bottom: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date h2{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color : #575757;
+}
+
+.main{
+    width: 300px;
+    height: 410px;
+
+    background-color: white;
+    border: 1pt solid #000000;
+
+    border-radius: 0px 0px 11px 11px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.quote h2{
+    padding: 30px 25px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.2967px;
+    line-height: 108.1%;
+    text-align: center;
+    color: #000000;
+}
+
+.author h2{
+    padding: 30px 25px 50px 25px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8049px;
+    text-align: center;
+    color: #6C6C6C;
+    text-transform: uppercase;
+}
+
+.container1{
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    left: 0
+}
+
+.container2{
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    right:0;
+}
